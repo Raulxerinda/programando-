@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel admin</title>
-<link rel="stylesheet" href="style.css">
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
 <div class="container">
 <div class="form-box login">
 <form action="">
@@ -33,7 +23,8 @@
 </div>
 </form>
 </div>
-
+<div class="profile_content">
+    <a href="./logout.php"></a>
 <div class="form-box register">
 <form action="">
 <h1>Cadastro</h1>
@@ -75,7 +66,4 @@
 
 </div>
 </div>
-
-<script src="script.js" defer></script>
-</body>
-</html>
+</div>
